@@ -1,0 +1,56 @@
+.form {
+    width: 500px;
+    height: 550px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #F5F5F5;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: gainsboro;
+    justify-content: center;
+    padding: 20px;
+}
+
+.heading {
+    color: black;
+    width: 90%;
+    font: normal normal bold 28/24px Robot;
+    text-align: left;
+    margin-left: 100px;
+    text-transform: capitalize;
+}
+
+.rows {
+    margin-left: 50px;
+    display: flex;
+    gap: 80px;
+    margin: 20px;
+    
+    
+}
+
+.label{
+    width: 20px;
+    padding: 10px;
+    
+}
+ 
+.button{
+    width: 70px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+body{
+    width: 500px; 
+}
+.gender{
+padding-top: 10px;
+}

@@ -1,0 +1,27 @@
+.table-main {
+    width: 81%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse:collapse;
+    border-spacing: 0 15px;
+}
+
+td, th {
+    text-align:center;
+    padding: 5px 8px;
+     border: 1px solid;
+}
+
+th {
+    text-align:center;
+    font: normal normal medium 18px/24px Roboto;
+    text-transform: uppercase;
+    color: #dddddd;
+    background-color: #42515f;
+
+}
+

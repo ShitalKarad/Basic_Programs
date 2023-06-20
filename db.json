@@ -1,0 +1,65 @@
+{
+  "students": [
+
+    {
+      "name": "Shital Karad",
+      "fatherName": "Bandu darade",
+      "motherName": "Sushila Darade",
+      "moNum": "902235701",
+      "gender": "",
+      "date": "2023-06-28",
+      "marks": "55",
+      "id": 3
+    },
+    {
+      "name": "Shital Karad",
+      "fatherName": "Bandu darade",
+      "motherName": "Sushila",
+      "moNum": "9022357801",
+      "gender": "",
+      "date": "2023-06-28",
+      "marks": "44",
+      "id": 4
+    },
+    {
+      "name": "vishal karad",
+      "fatherName": "Navnath Karad",
+      "motherName": "sandhya Karad",
+      "moNum": "58792",
+      "gender": "",
+      "date": "2023-06-28",
+      "marks": "56",
+      "id": 5
+    },
+    {
+      "name": "Shital Karad",
+      "fatherName": "Bandu darade",
+      "motherName": "Sushila",
+      "moNum": "0436457",
+      "gender": "",
+      "date": "2023-06-28",
+      "marks": "88",
+      "id": 6
+    },
+    {
+      "name": "Shital ",
+      "fatherName": "dgf",
+      "motherName": "fjdgh",
+      "moNum": "023484576",
+      "gender": "",
+      "date": "2023-07-05",
+      "marks": "55",
+      "id": 7
+    },
+    {
+      "name": "vishal karad",
+      "fatherName": "Navnath Karad",
+      "motherName": "sandhya Karad",
+      "moNum": "8956561212",
+      "gender": "female",
+      "date": "2023-06-22",
+      "marks": "66",
+      "id": 8
+    }
+  ]
+}
