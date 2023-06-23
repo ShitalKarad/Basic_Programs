@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+                http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	
+	
+	<!--  <bean class="com.springcore.springlifecycle.Samosa" name="samosa" init-method="init" 
+	 destroy-method="destroy">
+		<property name="price" value="8.5"/>
+	</bean>
+	<bean class="com.springcore.springlifecycle.Pepsi" name="pepsi">
+		<property name="price" value="25"/>
+	</bean> -->
+	
+	
+	<bean class="com.springcore.springlifecycle.AnnotationUsing" name="annotation">
+		<property name="books" value="English"/>
+	</bean>
+	
+	<bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"  />
+	
+	
+</beans>

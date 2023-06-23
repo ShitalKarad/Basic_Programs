@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+                http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!-- using setter injecion for premitive data types -->
+	<!-- this is our bean -->
+	<!-- this is our bean using p schema -->
+	<!--  <bean id="s" class="com.springcore.Student" name="student1"
+		p:studentId="11" p:studentName="shital" p:studentAddress="beed" />
+		
+		-->
+
+	<!--<property name="studentId" value="22" /> <property name="studentName" 
+		value="Shital" /> <property name="studentAddress" value="Beed" /> </bean> -->
+
+	<!--  <bean class="com.springcore.Student" name="student2">
+
+		<property name="studentId" value="20" />
+
+
+		<property name="studentName" value="vishal" />
+
+
+		<property name="studentAddress" value="Tapvon" />
+
+
+	</bean>
+	-->
+	
+	<!-- USING COLLECTION INJECTION-->
+	
+	<!--  <bean class ="com.springcore.collections.Employee" name="emp1">
+
+		<property name="name" value="Vishal" />
+		<property name="phones">
+			<list>
+				<value>973265</value>
+				<value>79458</value>
+				<value>56769650</value>
+				<value>556794</value>
+				<null/>
+			</list>
+		</property>
+		<property name="address">
+			<set>
+				<value>Beed</value>
+				<value>Pune</value>
+				<value>Parali</value>
+			</set>
+		</property>
+		<property name="courses">
+			<map>
+				<entry key="java" value="2month"/>
+				<entry key="C++" value="3month"/>
+				<entry key="paythan" value="3month"/>
+			</map>
+		</property>
+	</bean>
+	-->
+	
+	<!-- Using Reference Injection-->
+	
+	<bean class="com.springcore.reference.SecondB" name="secondB">
+	<property name="num2" value="90"/>
+	</bean>
+	
+	<bean class="com.springcore.reference.FirstA" name="firstA">
+	
+	<property name="num" value="50"/>
+	
+	<!-- 
+	<property name="obj">
+		
+		<ref bean="secondB"/>
+	</property>
+	 -->
+	 <!-- second way of reference usinng -->
+	 <property name="obj" ref="secondB"/>
+	</bean>
+
+
+</beans>
